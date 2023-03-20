@@ -16,6 +16,7 @@ class Person{
 			getline(cin,name);
 			cout<<"Enter age: "<<endl;
 			cin>>age;
+			// Using cin.ignore to access the information correctly.
 			cin.ignore();
 			cout<<"Enter Address: "<<endl;
 			getline(cin,address);
@@ -38,6 +39,7 @@ class Student : public Person{
 			grade = '0';
 		}
 		void input_details(){
+			// Using Scope Resolution Operator (::) for accessing parent class Member Functions.
 			Person::input_details();
 			cout<<"Enter Roll no: "<<endl;
 			cin>>roll_no;
@@ -78,6 +80,7 @@ class Scholarship: public Student{
 			cout<<"\nScholarship Information: "<<endl;
 			cout<<"\tScholarship Name: "<<scholarship_name<<endl;
 			cout<<"\tAmount: "<<amount<<endl;
+			// Checking For Verified Scholarship to display the message accordingly.
 			switch (is_approved) {
 			case true:
 				cout<<"\tVerified Scholarship: "<<endl;
