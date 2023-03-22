@@ -1,5 +1,11 @@
 #include<iostream>
 using namespace std;
+/* 	
+	Multilevel inheritance
+		When a Child class is inherited by another class. In this Case the class which is
+		inheriting from child class is called GrandChild and the top most class from which
+		child class is Derived is called GrandChild.
+*/
 // Parent Class
 class Person{
 	protected:
