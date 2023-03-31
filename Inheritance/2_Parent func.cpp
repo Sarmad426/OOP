@@ -11,7 +11,7 @@ class Person{
 			id = 0;
 			address = "No Address";
 		}
-		void get_details(){
+	void get_details(){
     cout<<"Enter Id: "<<endl;
     cin>>id;
     cout<<"Enter Your Name: "<<endl;
@@ -21,11 +21,11 @@ class Person{
     getline(cin,address);
 }
 
-		void details(){
-			cout<<"\nYour Personal Details: "<<endl;
-			cout<<"\tName: \t\t|\t"<<name<<endl;
-			cout<<"\tId: \t\t|\t"<<id<<endl;
-			cout<<"\tAddress: \t|\t"<<address<<endl;
+	void details(){
+		cout<<"\nYour Personal Details: "<<endl;
+		cout<<"\tName: \t\t|\t"<<name<<endl;
+		cout<<"\tId: \t\t|\t"<<id<<endl;
+		cout<<"\tAddress: \t|\t"<<address<<endl;
 		}
 };
 class Student : public Person{
