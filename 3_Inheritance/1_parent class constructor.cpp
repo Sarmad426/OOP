@@ -18,7 +18,8 @@ class Child : public Parent {
 		Child(){
 			age = 0;
 		}
-		Child(int Age): Parent(name){
+		// Accessing Parent Constructor
+		Child(string name,int Age): Parent(name){
 			age = Age;
 		}
 		void details(){
@@ -27,7 +28,6 @@ class Child : public Parent {
 		}
 };
 int main(){
-	Parent parent2("Sarmad");
-	Child child2(18);
+	Child child2("Sarmad",18);
 	child2.details();
 }
