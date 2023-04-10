@@ -38,12 +38,14 @@ class Student : public Person{
 			marks = 0;
 		}
 		void get_edu_info(){
+			Person::get_details();
 			cout<<"Roll No: "<<endl;
 			cin>>roll_no;
 			cout<<"Marks: "<<endl;
 			cin>>marks;
 		}
 		void edu_info_details(){
+			Person::details();
 			cout<<"\nEducational Details: "<<endl;
 			cout<<"\tRoll No: \t|\t"<<roll_no<<endl;
 			cout<<"\tMarks: \t\t|\t"<<marks<<endl;
@@ -51,8 +53,6 @@ class Student : public Person{
 };
 int main(){
 	Student sarmad;
-	sarmad.get_details();
 	sarmad.get_edu_info();
-	sarmad.details();
 	sarmad.edu_info_details();
 }
