@@ -19,7 +19,7 @@ Type Max(Type a, Type b){
 int main(){
 	int n;
 	float m;
-	n = Max(10,50);
+	n = Max(10,7);
 	cout<<"Max of two integers: "<<n<<endl;
 	m = Max(3.5,2.2);
 	cout<<"Maximum of two floats: "<<m<<endl;
