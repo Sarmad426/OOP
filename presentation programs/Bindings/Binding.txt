@@ -1,0 +1,16 @@
+Binding
+	Binding Refers to the process of converting variables,identifiers into memory addresses.	
+	Binding is done for each variable and functions.
+Functional Binding
+	For functions it means that matching the call with the right function definition by the compiler.
+
+- Early Binding
+- Late Binding / Dynamic Binding
+
+Early Binding
+	In Early Binding compiler knows at the time of compilation which block of code is 
+	to be executed upon a function call.
+
+Late Binding
+	In Late Binding compiler does not know at the time of compilation that which block 
+	of code is to be executed upon a function call. It is attained using virtual functions.
