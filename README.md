@@ -46,4 +46,4 @@ End Project Using Object Oriented Programming Technique.
 -		A Premium User class which contains the package type,(weekly,monthly,yearly)
 -		 and based on that prompts for the payments and also provides double password encryption.
 ## 7
--		The project saves all the data in a files. Sile Handling Included.
+-		The project saves all the data in a files. File Handling Included.
