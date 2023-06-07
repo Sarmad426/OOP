@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class Simple{
-    private:
+    protected:
         int a,b;
     public:
     Simple(){
@@ -31,21 +31,29 @@ class Complex : public Simple{
         void add(){
             if(a>0 && b>0){
                 Simple::add();
+            }else{
+                cout<<"Invalid Value: "<<endl;
             }
         }
          void sub(){
             if(a>0 && b>0){
                 Simple::sub();
+            }else{
+                cout<<"Invalid Value: "<<endl;
             }
         }
          void div(){
             if(a>0 && b>0){
                 Simple::div();
+            }else{
+                cout<<"Invalid Value: "<<endl;
             }
         }
          void mul(){
             if(a>0 && b>0){
                 Simple::mul();
+            }else{
+                cout<<"Invalid Value: "<<endl;
             }
         }
 };
