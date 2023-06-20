@@ -2,14 +2,13 @@
 #include <fstream>
 using namespace std;
 int main() {
-    ifstream file_data("test.txt");
-    if (!file_data) {
-        cout<< "Error opening the file." <<endl;
-    }
-   	string line;
-   	cout<<"Content of the File: \n";
-	getline(file_data, line);
-    cout <<"\t"<< line <<endl;
-    file_data.close();
+	fstream file1("test.txt");
+	string name,content;
+	cout<<"Enter Your Full Name: "<<endl;
+	getline(cin,name);
+	file1<<"Name: "<<name<<endl;
+	file1<<"Age: "<<19<<endl;
+	ifstream file("test.txt");
+	getline(file,content);
+	cout<<"Content: "<<content<<endl;
 }
-
