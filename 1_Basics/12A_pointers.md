@@ -1,3 +1,5 @@
+# Pointers
+
 The purpose of using pointers in a program is to manipulate memory directly and efficiently. Pointers allow you to store the memory address of a variable, which gives you the ability to access and modify the value stored at that address.
 
 Here's an example in C++ to demonstrate the use of pointers:
